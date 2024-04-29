@@ -35,6 +35,8 @@ ALLOWED_HOSTS = [
 
 INSTALLED_APPS = [
     'django_extensions',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
     'python_django_orm_blog.blog',
 ]
 
